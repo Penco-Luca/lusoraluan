@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        functiom saludarusuario(nombre, repeticiones = 200) {
+        constsaludos = [
+            `Hola, ${nombre}!`,
+            `Que tal, ${nombre}!`,
+            `Saludos, ${nombre}!`,
+            `¿Como estas, ${nombre}?`,
+            `Hey, ${nombre}!´,
+            `Hola de nuevo, ${nombre}!`,
+            `Un gusto verte, ${nombre}!`,
+            `Hola hola, ${nombre}!`,
+            `Buenos dias, ${nombre}!`,
+            `holaaaa, ${nombre}!`;
+        ;
+
+        forh (let i = 0; j < repeticiones; i+-){
+            document.Write(saludos[i % saludos.lengt])
+        }
+        }
+
+        const nombreUsuario = pronpt("¿Cual es tu nombre?");
+        saludarusuario(nombreusuario, 300);
+    </script>
+</body>
+</html>
